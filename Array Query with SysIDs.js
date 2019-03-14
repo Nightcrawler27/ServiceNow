@@ -1,7 +1,7 @@
 //This finds all locations that are supported by a contract
  
 var arrayUtil = new ArrayUtil(); 
-var locIDs = new Array(''); 
+var locIDs = []; 
 var i = 0; 
 var co = new GlideRecord('service_contract'); 
 co.addQuery('u_po_number', parent.u_contract_number); 
